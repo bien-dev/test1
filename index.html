@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" href="style-select.css" />
+		<script src="./script.js" defer></script>
+		<title>Bien-Test</title>
+	</head>
+	<body>
+		<div class="main">
+			<div class="header">
+				<img src="./images/logo.svg" alt="logo" class="logo" />
+				<ul class="flex nav">
+					<li><a href="#">PATTERN</a></li>
+					<li><a href="#">PRICING</a></li>
+					<li><a href="#">SUPPORT</a></li>
+					<li><a href="#">ULTRAFIT SHOP</a></li>
+				</ul>
+				<div class="flex account">
+					<button>EDIT & PIOT</button>
+					<button>SELL PATTERN</button>
+					<div class="line"></div>
+					<img
+						src="./images/icon-account.svg"
+						alt="logo account"
+						class="icon-account"
+					/>
+				</div>
+			</div>
+
+			<!-- banner -->
+			<div class="banner">
+				<h2>Find Your Paint Protection Film Cutting File.</h2>
+				<div class="filter">
+					<div class="filter-input flex">
+						<div class="flex column">
+							<label for="location">Location</label>
+							<input
+								type="text"
+								id="location"
+								placeholder="Select Location"
+								onclick="toggle('drop-down-1')"
+							/>
+
+							<div class="drop-down none" id="drop-down-1">
+								<p>CANADA & USA</p>
+								<p>EUROPE</p>
+								<p>SOUTH KOREA</p>
+							</div>
+						</div>
+
+						<div class="flex column">
+							<label for="year">Year</label>
+							<input
+								type="text"
+								placeholder="Select Year"
+								onclick="toggle('drop-down-2')"
+							/>
+							<div class="drop-down none" id="drop-down-2">
+								<p></p>
+								<p></p>
+								<p></p>
+								<p></p>
+								<p></p>
+								<p></p>
+								<p></p>
+								<p></p>
+								<p></p>
+								<p></p>
+								<p></p>
+								<p></p>
+								<p></p>
+								<p></p>
+								<p></p>
+								<p></p>
+								<p></p>
+								<p>2022</p>
+								<p>2021</p>
+								<p>2019</p>
+								<p>2018</p>
+								<p>2017</p>
+								<p>2016</p>
+								<p>2015</p>
+								<p>2014</p>
+								<p>2013</p>
+								<p>2012</p>
+								<p>2011</p>
+							</div>
+						</div>
+						<div class="flex column">
+							<label for="make">Make</label>
+							<input
+								type="text"
+								id="make"
+								placeholder="select make"
+							/>
+						</div>
+						<div class="flex column">
+							<label for="model">Model</label>
+							<input
+								type="text"
+								id="model"
+								placeholder="Select Model"
+							/>
+						</div>
+						<div class="flex column">
+							<label for="sub-model">Sub-Model</label>
+							<input
+								type="text"
+								id="sub-mode"
+								placeholder="Select Sub Model"
+							/>
+						</div>
+						<div class="flex column">
+							<label for="Series">Series</label>
+							<input
+								type="text"
+								id="series"
+								placeholder="Select Series"
+							/>
+						</div>
+					</div>
+					<div class="flex search">
+						<img src="./images/icon-reset.svg" alt="reset icon" />
+						<h4>RESET</h4>
+						<button>SEARCH</button>
+					</div>
+				</div>
+			</div>
+			<!-- end banners -->
+
+			<!-- card-list -->
+			<div class="card-list">
+				<h3>NEW PROTECTION FILM LIST</h3>
+				<div class="card grid">
+					<div class="card-item item-1">
+						<img
+							src="./images/bedge.webp"
+							alt="bedge"
+							class="top-left"
+						/>
+						<p class="top-text">Upload date : 2021. 12. 01</p>
+						<div class="circle orange top-right">
+							<img
+								src="./images/icon-bookmark-on.svg"
+								alt="icon bookmark"
+							/>
+						</div>
+						<img
+							src="./images/pattern-img.png"
+							alt="pattern"
+							class="card-center"
+						/>
+						<span class="origins"
+							>CANADA & USA > 2021 > TOYOTA > CAMRY > XLE HYBRID</span
+						>
+						<br />
+						<span class="category">OUT FRONT > BUMPER</span>
+						<div class="underline1"></div>
+						<div class="stars-credit">
+							<div class="stars">
+								<img
+									src="./images/icon-star-on.svg"
+									alt=""
+									class="star"
+								/>
+								<img
+									src="./images/icon-star-on.svg"
+									alt=""
+									class="star"
+								/>
+								<img
+									src="./images/icon-star-on.svg"
+									alt=""
+									class="star"
+								/>
+								<img
+									src="./images/icon-star-on.svg"
+									alt=""
+									class="star"
+								/>
+								<img
+									src="./images/icon-star-off.svg"
+									alt=""
+									class="star"
+								/>
+							</div>
+							<div class="flex column credit">
+								<span>20 Credits</span>
+								<p>60 downloads</p>
+							</div>
+						</div>
+						<div class="bottom flex">
+							<div class="profile flex">
+								<img
+									src="./images/img-profile1.jpg"
+									alt=""
+									class="bottom-left flex"
+								/>
+								<p class="bottom-text">By carlover</p>
+							</div>
+							<div class="bottom-right flex">
+								<img src="./images/icon-beginner.svg" alt="" />
+								<p class="last-text">Beginner</p>
+							</div>
+						</div>
+					</div>
+					<div class="card-item item-2">
+						<!-- <img
+							src="./images/bedge.webp"
+							alt="bedge"
+							class="top-left"
+						/> -->
+						<p class="top-text">Upload date : 2021. 11. 29</p>
+						<div class="circle pale top-right">
+							<img
+								src="./images/icon-bookmark-on.svg"
+								alt="icon bookmark"
+							/>
+						</div>
+						<img
+							src="./images/pattern-img.png"
+							alt="pattern"
+							class="card-center"
+						/>
+						<span class="origins"
+							>CANADA & USA > 2020 > GENESIS > G70 > ELITE</span
+						>
+						<br />
+						<span class="category">OUT FRONT > BUMPER</span>
+						<div class="underline1"></div>
+						<div class="stars-credit">
+							<div class="stars">
+								<img
+									src="./images/icon-star-on.svg"
+									alt=""
+									class="star"
+								/>
+								<img
+									src="./images/icon-star-on.svg"
+									alt=""
+									class="star"
+								/>
+								<img
+									src="./images/icon-star-on.svg"
+									alt=""
+									class="star"
+								/>
+								<img
+									src="./images/icon-star-off.svg"
+									alt=""
+									class="star"
+								/>
+								<img
+									src="./images/icon-star-off.svg"
+									alt=""
+									class="star"
+								/>
+							</div>
+							<div class="flex column credit">
+								<span>18 Credits</span>
+								<p>11 downloads</p>
+							</div>
+						</div>
+						<div class="bottom flex">
+							<div class="profile flex">
+								<img
+									src="./images/img-profile2.jpg"
+									alt=""
+									class="bottom-left flex"
+								/>
+								<p class="bottom-text">By carve</p>
+							</div>
+							<div class="bottom-right flex">
+								<img src="./images/icon-expert.svg" alt="" />
+								<p class="last-text">Expert</p>
+							</div>
+						</div>
+					</div>
+					<div class="card-item item-3">
+						<!-- <img
+							src="./images/bedge.webp"
+							alt="bedge"
+							class="top-left"
+						/> -->
+						<p class="top-text">Upload date : 2021. 11. 29</p>
+						<div class="circle orange top-right">
+							<img
+								src="./images/icon-bookmark-on.svg"
+								alt="icon bookmark"
+							/>
+						</div>
+						<img
+							src="./images/pattern-img.png"
+							alt="pattern"
+							class="card-center"
+						/>
+						<span class="origins"
+							>CANADA & USA > 2020 > CADILLAC > CT5 > PREMIUM
+							LUXURY</span
+						>
+						<br />
+						<span class="category">OUT FRONT > BUMPER</span>
+						<div class="underline1"></div>
+						<div class="stars-credit">
+							<div class="stars">
+								<img
+									src="./images/icon-star-on.svg"
+									alt=""
+									class="star"
+								/>
+								<img
+									src="./images/icon-star-on.svg"
+									alt=""
+									class="star"
+								/>
+								<img
+									src="./images/icon-star-on.svg"
+									alt=""
+									class="star"
+								/>
+								<img
+									src="./images/icon-star-off.svg"
+									alt=""
+									class="star"
+								/>
+								<img
+									src="./images/icon-star-off.svg"
+									alt=""
+									class="star"
+								/>
+							</div>
+							<div class="flex column credit">
+								<span>18 Credits</span>
+								<p>11 downloads</p>
+							</div>
+						</div>
+						<div class="bottom flex">
+							<div class="profile flex">
+								<img
+									src="./images/img-profile3.jpg"
+									alt=""
+									class="bottom-left flex"
+								/>
+								<p class="bottom-text">By filmking</p>
+							</div>
+							<div class="bottom-right flex">
+								<img src="./images/icon-master.svg" alt="" />
+								<p class="last-text">Master</p>
+							</div>
+						</div>
+					</div>
+					<div class="card-item item-4">
+						<!-- <img
+							src="./images/bedge.webp"
+							alt="bedge"
+							class="top-left"
+						/> -->
+						<p class="top-text">Upload date : 2021. 11. 29</p>
+						<div class="circle orange top-right">
+							<img
+								src="./images/icon-bookmark-on.svg"
+								alt="icon bookmark"
+							/>
+						</div>
+						<img
+							src="./images/pattern-img.png"
+							alt="pattern"
+							class="card-center"
+						/>
+						<span class="origins"
+							>CANADA & USA > 2020 > CHRYSLER > PACIFICA >
+							TOURING</span
+						>
+						<br />
+						<span class="category">OUT FRONT > BUMPER</span>
+						<div class="underline1"></div>
+						<div class="stars-credit">
+							<div class="stars">
+								<img
+									src="./images/icon-star-on.svg"
+									alt=""
+									class="star"
+								/>
+								<img
+									src="./images/icon-star-on.svg"
+									alt=""
+									class="star"
+								/>
+								<img
+									src="./images/icon-star-on.svg"
+									alt=""
+									class="star"
+								/>
+								<img
+									src="./images/icon-star-on.svg"
+									alt=""
+									class="star"
+								/>
+								<img
+									src="./images/icon-star-off.svg"
+									alt=""
+									class="star"
+								/>
+							</div>
+							<div class="flex column credit">
+								<span>18 Credits</span>
+								<p>11 downloads</p>
+							</div>
+						</div>
+						<div class="bottom flex">
+							<div class="profile flex">
+								<img
+									src="./images/img-profile4.jpg"
+									alt=""
+									class="bottom-left flex"
+								/>
+								<p class="bottom-text">By benzz</p>
+							</div>
+							<div class="bottom-right flex">
+								<img src="./images/icon-advanced.png" alt="" />
+								<p class="last-text">Advanced</p>
+							</div>
+						</div>
+					</div>
+					<div class="card-item item-5">
+						<!-- <img
+							src="./images/bedge.webp"
+							alt="bedge"
+							class="top-left"
+						/> -->
+						<p class="top-text">Upload date : 2021. 11. 28</p>
+						<div class="circle orange top-right">
+							<img
+								src="./images/icon-bookmark-on.svg"
+								alt="icon bookmark"
+							/>
+						</div>
+						<img
+							src="./images/pattern-img.png"
+							alt="pattern"
+							class="card-center"
+						/>
+						<span class="origins"
+							>EUROPE > 2020 > NISSAN > ARMADA > PLATINUM
+							RESERVE</span
+						>
+						<br />
+						<span class="category">OUT FRONT > BUMPER</span>
+						<div class="underline1"></div>
+						<div class="stars-credit">
+							<div class="stars">
+								<img
+									src="./images/icon-star-on.svg"
+									alt=""
+									class="star"
+								/>
+								<img
+									src="./images/icon-star-on.svg"
+									alt=""
+									class="star"
+								/>
+								<img
+									src="./images/icon-star-on.svg"
+									alt=""
+									class="star"
+								/>
+								<img
+									src="./images/icon-star-on.svg"
+									alt=""
+									class="star"
+								/>
+								<img
+									src="./images/icon-star-off.svg"
+									alt=""
+									class="star"
+								/>
+							</div>
+							<div class="flex column credit">
+								<span>45 Credits</span>
+								<p>97 downloads</p>
+							</div>
+						</div>
+						<div class="bottom flex">
+							<div class="profile flex">
+								<img
+									src="./images/img-profile5.jpg"
+									alt=""
+									class="bottom-left flex"
+								/>
+								<p class="bottom-text">By bmwing</p>
+							</div>
+							<div class="bottom-right flex">
+								<img src="./images/icon-advanced.png" alt="" />
+								<p class="last-text">Advanced</p>
+							</div>
+						</div>
+					</div>
+					<div class="card-item item-6">
+						<img
+							src="./images/bedge.webp"
+							alt="bedge"
+							class="top-left"
+						/>
+						<p class="top-text">Upload date : 2021. 11. 27</p>
+						<div class="circle orange top-right">
+							<img
+								src="./images/icon-bookmark-on.svg"
+								alt="icon bookmark"
+							/>
+						</div>
+						<img
+							src="./images/pattern-img.png"
+							alt="pattern"
+							class="card-center"
+						/>
+						<span class="origins"
+							>CANADA & USA > 2020 > Mercedes BENZ > GLC COUPE > AMG
+							GLC 43</span
+						>
+						<br />
+						<span class="category">OUT FRONT > BUMPER</span>
+						<div class="underline1"></div>
+						<div class="stars-credit">
+							<div class="stars">
+								<img
+									src="./images/icon-star-on.svg"
+									alt=""
+									class="star"
+								/>
+								<img
+									src="./images/icon-star-on.svg"
+									alt=""
+									class="star"
+								/>
+								<img
+									src="./images/icon-star-on.svg"
+									alt=""
+									class="star"
+								/>
+								<img
+									src="./images/icon-star-on.svg"
+									alt=""
+									class="star"
+								/>
+								<img
+									src="./images/icon-star-off.svg"
+									alt=""
+									class="star"
+								/>
+							</div>
+							<div class="flex column credit">
+								<span>50 Credits</span>
+								<p>201 downloads</p>
+							</div>
+						</div>
+						<div class="bottom flex">
+							<div class="profile flex">
+								<img
+									src="./images/img-profile6.jpg"
+									alt=""
+									class="bottom-left flex"
+								/>
+								<p class="bottom-text">By youue</p>
+							</div>
+							<div class="bottom-right flex">
+								<img src="./images/icon-beginner.svg" alt="" />
+								<p class="last-text">Beginner</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<button class="hover">LOAD MORE</button>
+			</div>
+			<!-- ads banner -->
+			<div class="ads">
+				<img src="./images/adds-img.jpg" alt="ads" />
+				<div class="content">
+					<h4>TRY THE EDIT & PLOT FOR FREE FOR A MONTH.</h4>
+					<button>Start now!</button>
+				</div>
+			</div>
+			<!-- grid -->
+			<div class="grid">
+				<div class="grid-item grid-1">
+					<img src="./images/img-left.jpg" alt="a car" class="" />
+				</div>
+
+				<div class="grid-item grid-2">
+					<img
+						src="./images/grid-2-bg.png"
+						alt="grid 2 img"
+						class="img-bg"
+					/>
+					<img
+						src="./images/icon-quality.png"
+						alt="quality icon"
+						class="icon"
+					/>
+					<p>
+						The largest/first pattern marketplace for automotive film
+						professionals in the world.
+					</p>
+				</div>
+				<div class="grid-item grid-3">
+					<div class="grid-content">
+						<img
+							src="./images/icon-pentool.svg"
+							alt="icon pentool"
+							class="icon"
+						/>
+						<p class="first-text">
+							<strong
+								>Search for thousands of automotive patterns,
+								customize to fit your needs, and plot online any film
+								regardless of brand!</strong
+							>
+						</p>
+						<p class="last-text">
+							Donec vitae porta sapien, nec dictum sapien. Vivamus
+							interdum dolor a ullamcorper congue. Curabitur non
+							eleifend enim.
+						</p>
+					</div>
+				</div>
+				<div class="grid-item grid-4">
+					<img src="./images/img-right.jpg" alt="" />
+				</div>
+				<div class="grid-item grid-5">
+					<img src="./images/img-grid-5.jpg" alt="" />
+				</div>
+				<div class="grid-item grid-6">
+					<img src="./images/grid-2-bg.png" alt="grid background" />
+					<div class="grid-content">
+						<img
+							src="./images/icon-money.svg"
+							alt="icon money"
+							class="icon"
+						/>
+						<p class="first-text">
+							<strong
+								>Easily upload your own patterns and start making
+								money now!</strong
+							>
+						</p>
+						<p class="last-text">
+							Donec vitae porta sapien, nec dictum sapien. Vivamus
+							interdum dolor a ullamcorper congue. Curabitur non
+							eleifend enim.
+						</p>
+					</div>
+				</div>
+			</div>
+			<!-- credit -->
+			<div class="credits">
+				<img
+					src="./images/img-credit-packs.jpg"
+					alt="credit background"
+				/>
+				<div class="credit-content">
+					<div class="credit-text">
+						<h1>CREDIT PACKS</h1>
+						<p>Choose credit plan designed to meet your needs.</p>
+					</div>
+					<div class="credit-grid">
+						<div class="credit-grid-item">
+							<p class="top-text">STANDARD</p>
+							<h1 class="price">$50</h1>
+							<p class="price-sub">*VAT not included in prices.</p>
+							<p class="credit-count">50 Credit</p>
+							<p class="total-credit">Total Credit</p>
+							<p class="last-credit">50 Credit</p>
+						</div>
+						<div class="credit-grid-item">
+							<p class="top-text">PLUS</p>
+							<h1 class="price">$100</h1>
+							<p class="price-sub">*VAT not included in prices.</p>
+							<p class="credit-count">100 Credit + 5 Credit</p>
+							<p class="total-credit">Total Credit</p>
+							<p class="last-credit">105 Credit</p>
+						</div>
+						<div class="credit-grid-item">
+							<p class="top-text">PREMIUM</p>
+							<h1 class="price">$250</h1>
+							<p class="price-sub">*VAT not included in prices.</p>
+							<p class="credit-count">250 Credit + 20 CREDIT</p>
+							<p class="total-credit">Total Credit</p>
+							<p class="last-credit">270 Credit</p>
+						</div>
+						<div class="credit-grid-item">
+							<p class="top-text">GOLD</p>
+							<h1 class="price">$1000</h1>
+							<p class="price-sub">*VAT not included in prices.</p>
+							<p 1000 class="credit-count">
+								1000 Credit + 130 Credit
+							</p>
+							<p class="total-credit">Total Credit</p>
+							<p class="last-credit">1130 Credit</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- footer -->
+			<footer>
+				<div class="footer-navbar">
+					<img src="./images/logo.svg" alt="logo" />
+					<div class="footer-nav">
+						<p>About Us</p>
+						<p>Our Product</p>
+						<p>Contact Us</p>
+						<p>Shop</p>
+					</div>
+					<div class="footer-icon">
+						<img src="./images/footer-icon1.svg" alt="footer icon" />
+						<img src="./images/footer-icon2.svg" alt="footer icon" />
+						<img src="./images/footer-icon3.svg" alt="footer icon" />
+					</div>
+				</div>
+				<div class="footer-text">
+					<p>©2021 INOGROW. All Rights Reserved.</p>
+					<div class="flex">
+						<img src="./images/icon-email.svg" alt="icon email" />
+						<p>E-mail: info@ultrafitprotection.com</p>
+					</div>
+				</div>
+			</footer>
+		</div>
+	</body>
+</html>
