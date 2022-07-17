@@ -29,14 +29,20 @@ input {
   padding-left: 20px;
   padding-top: 10px;
   padding-bottom: 10px;
-  overflow-y: scroll;
+  overflow-y:scroll;
 }
 
+.drop-down-2 {
+  display: flex;
+  justify-content: flex-start;
+
+}
 .drop-down p {
   cursor: pointer;
   font-size: 14px !important;
   font-weight: 500;
 }
+
 .drop-down p:hover {
   color: #0046a6;
 
